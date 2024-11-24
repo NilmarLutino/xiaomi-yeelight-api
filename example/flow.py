@@ -20,5 +20,5 @@ flow = Flow(
     ]
 )
 
-bulb = SmartBulb('192.168.1.103')
+bulb = SmartBulb('192.168.0.102')
 bulb.start_flow(flow)
